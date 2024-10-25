@@ -3,10 +3,10 @@ import numpy as np
 import random
 import json
 
-checkpoint_filepath = 'assets/cp-0003.keras'
+checkpoint_filepath = 'file path neural network'
 model = tf.keras.models.load_model(checkpoint_filepath, compile=False)
 
-with open('assets/text_vec_vocabulary.json', 'r', encoding='utf-8') as f:
+with open('text_vec_vocabulary.json', 'r', encoding='utf-8') as f:
     vocabulary = json.load(f)
 
 
